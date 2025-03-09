@@ -1,0 +1,30 @@
+body{
+    background-image: url(p6.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    font-size: 1rem;  /* Scales with user preferences */
+    padding: 2%;
+    overflow-x: hidden;
+    
+    
+}
+
+div.gallery{
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+div.gallery:hover{
+    border:1px solid #ffffff;
+}
+
+div.gallery img{
+    width: 100%;
+    heigth: auto;
+}
